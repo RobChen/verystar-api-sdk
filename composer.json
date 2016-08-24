@@ -1,0 +1,22 @@
+{
+  "name": "rob/apisdk",
+  "description": "rob verystar api sdk",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "rob",
+      "email": "rob@verystar.cn"
+    }
+  ],
+  "require": {
+    "php": ">=5.4.0"
+  },
+  "autoload": {
+    "files": [
+      "src/ApiSdkHelper/VeryApiCurl.php"
+    ],
+    "psr-4": {
+      "rob\\": "src/"
+    }
+  }
+}
