@@ -19,3 +19,6 @@
         $_eticket_api       = new EticketApi(CLIENT_CODE, CLIENT_SECRET);
     调用
         $ticket_info        = $_eticket_api->grant($ticket_id, $open_id, $order_sn);
+
+#### SDK已提交到composer的packagist 直接配置require即可 不需要指定repositories
+    https://packagist.org/packages/rob/apisdk
